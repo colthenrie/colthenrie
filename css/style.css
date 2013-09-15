@@ -1,0 +1,98 @@
+/*Responsice background I learned from http://mobile.smashingmagazine.com/2013/07/22/simple-responsive-images-with-css-backgrounds/*/
+html, body, #lockers {
+	height: 100%;
+	margin: 0;
+}
+
+/*.pagewrapper {
+
+	height: 100%;
+	width: 100%;
+}*/
+
+.container {
+	
+	height: 100%;
+	margin: 0;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+
+.container #lockers .inner {
+	/*padding-top: 63.35%;  */
+	/*display: block;*/
+}
+
+/*.mustache {
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	margin: 0;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 40%;
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+}*/
+
+.mustache { background-image: url("../images/mustache.jpg");
+						background-size: 200px;
+						position:absolute;
+						top: 125px;
+						height: 200px;
+		 }
+
+.inner .mustache {
+	height: 200px;
+	width: 50%;
+	margin-left: 15%;
+
+}
+
+
+ul {
+	
+	position: absolute;
+	/*display: inline-block;*/
+	top: 50px;
+	right: 50px;
+	height: 500px;
+	width: 50%;
+	background-color: whitesmoke;
+	font-size: 1.6em;
+	color: black;
+
+	
+}
+
+ul li {
+	font-family: 'Vast Shadow', cursive;
+	color: black;
+
+}
+
+
+@media only screen and (min-width: 721px) {
+	/* styles for MacBook Pro-sized screens and larger */
+
+	.container #lockers { background-image: url("../images/lockers.jpg");
+						background-size: cover;
+		 }
+
+}
+
+@media only screen and (max-width: 720px) {
+	/* styles for narrow screens */
+	.container #lockers { background-image: url("../images/lockerssmall.jpg");
+						background-size: cover;
+
+
+
+}
+
+#Background

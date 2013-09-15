@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.background {
+	background: #90ADB7 url('../images/background.png') repeat-x;
+	background-stretch:
+	
+}
+
+
+.linebreak {
+	line-height: 40px;
+}
+
+
+h1 {
+font-family: 'Vast Shadow', cursive;
+line-height: 60px;
+
+
+
+#social {
+	list-style: none;
+	padding: 0;
+	float: central;
+	margin: 10px 0;
+	
+}
+
+#social li {
+	float: left;
+	margin-right: 10px;
+}
+	
+
